@@ -1,0 +1,63 @@
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    color:#212121
+body
+    height: 100vh
+    width:100vw
+    display:flex
+    flex-direction:row
+
+.flex-center
+    display:flex
+    justify-content:center
+    align-items:center
+
+.sidebar
+    height:100%
+    width:115px
+    display:flex
+    flex-direction:column
+    justify-content:space-between
+    padding:47px
+
+    nav
+        display:flex
+        flex-direction:column
+        justify-content:space-between
+        align-items:center
+        height:360px
+
+        a
+            transform:rotate(-90deg)
+            text-decoration:none
+            font-family:'Avenir Next'
+            font-weight:700
+            font-size:13px
+
+            &:nth-child(1)
+             margin-bottom:-15px
+            
+            &:nth-child(5)
+             margin-top:-10px
+
+
+.hamburger
+ cursor:pointer
+
+.indicator
+ height:22px
+ width:22px
+ border-radius:1000px
+ background-color:#F75A5D
+
+.image
+ flex:1
+ background-image:url("https://lh3.googleusercontent.com/proxy/FgTZ0whCDT_z078S8UVeKIr176rdyszLzzxhMuKh8tmiacP8VbHLpjV8ggEXWSfDV4dRVi7KHPuy82rlcHxbHyh2C2LGDNvBzchfm2s")
+ background-size:cover
+ background-position:center
+
+.article
+    width:767px
+    overflow-y:scroll
